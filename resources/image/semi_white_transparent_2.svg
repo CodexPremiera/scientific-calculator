@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Half_Rectangle_Light" data-name="Half Rectangle Light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 100">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #242422;
+      }
+
+      .cls-2 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3 {
+        font-family: Lato-Bold, Lato;
+        font-size: 91px;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        fill: #f79c1d;
+      }
+    </style>
+  </defs>
+  <text id="Company_Name" data-name="Company Name" class="cls-3" transform="translate(125 80.66)"><tspan class="cls-2" x="0" y="0">L</tspan><tspan class="cls-1" x="45.32" y="0">ern</tspan><tspan class="cls-4" x="182.86" y="0">Space</tspan></text>
+  <g id="Logo">
+    <path id="S_Belly" data-name="S Belly" class="cls-1" d="m100,66.51c0,18.37-14.89,33.26-33.25,33.26V33.25c18.36,0,33.25,14.89,33.25,33.25Z"/>
+    <ellipse id="S_Head" data-name="S Head" class="cls-4" cx="83.44" cy="16.63" rx="16.56" ry="16.63"/>
+    <path id="S_Spine" data-name="S Spine" class="cls-4" d="m66.75.03v66.48c-18.3,0-33.13-14.88-33.13-33.25S48.46.03,66.75.03Z"/>
+    <path id="Both_End" data-name="Both End" class="cls-4" d="m33.5,99.24c0-10.91,0-21.82,0-32.73,18.3,0,33.13,14.89,33.13,33.25h-33.13"/>
+    <ellipse id="L_Corner" data-name="L Corner" class="cls-1" cx="16.7" cy="83.37" rx="16.56" ry="16.63"/>
+    <path id="L_Stem" data-name="L Stem" class="cls-1" d="m33.5,33.25v33.25C15.14,66.51.26,51.62.26,33.25V0C18.62,0,33.5,14.89,33.5,33.25Z"/>
+  </g>
+</svg>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Calculator">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="resources/css/reset.css">
+    <link rel="stylesheet" href="resources/css/styles.css">
+</head>
+
+<body>
+    <div id="content_wrapper">
+
+        <header class="page_division" id="header_division">
+            <section class="section header_section" id="top_header_section">
+                <div class="section_container header_container" id="top_header_container">
+                    <a href="base.html">
+                        Calculator.io
+                    </a>
+                </div>
+            </section>
+        </header>
+
+        <main class="page_division">
+            <section class="section" id="calculator_section">
+                <div class="section_container" id="calculator_container">
+                    <div class="section_block calculator_block double_block" id="calculator">
+                        <label for="input_box" id="input_box_wrapper">
+                            <input type="text" id="input_box" placeholder="enter expression">
+                        </label>
+                        <div class="calculator_key_group" id="function_key_group">
+                            <button class="calculator_key functions_key" id="key_sin">sin</button>
+                            <button class="calculator_key functions_key" id="key_cos">cos</button>
+                            <button class="calculator_key functions_key" id="key_tan">tan</button>
+                            <button class="calculator_key functions_key" id="key_factorial">!</button>
+
+                            <button class="calculator_key functions_key" id="key_reciprocal">x<sup>-1</sup></button>
+                            <button class="calculator_key functions_key" id="key_pow_n">x<sup>n</sup></button>
+                            <button class="calculator_key functions_key" id="key_pow_3">x<sup>3</sup></button>
+                            <button class="calculator_key functions_key" id="key_pow_2">x<sup>2</sup></button>
+
+                            <button class="calculator_key functions_key" id="key_log_n">log</button>
+                            <button class="calculator_key functions_key" id="key_ln">ln</button>
+                            <button class="calculator_key functions_key" id="key_root_3">∛</button>
+                            <button class="calculator_key functions_key" id="key_root_2">√</button>
+
+                            <button class="calculator_key functions_key" id="key_pi">π</button>
+                            <button class="calculator_key functions_key" id="key_phi">φ</button>
+                            <button class="calculator_key functions_key" id="key_par_open">(</button>
+                            <button class="calculator_key functions_key" id="key_par_close">)</button>
+                        </div>
+                        <div class="calculator_key_group" id="number_key_group">
+                            <button class="calculator_key value_key" id="key_1">1</button>
+                            <button class="calculator_key value_key" id="key_2">2</button>
+                            <button class="calculator_key value_key" id="key_3">3</button>
+
+                            <button class="calculator_key value_key" id="key_4">4</button>
+                            <button class="calculator_key value_key" id="key_5">5</button>
+                            <button class="calculator_key value_key" id="key_6">6</button>
+
+                            <button class="calculator_key value_key" id="key_7">7</button>
+                            <button class="calculator_key value_key" id="key_8">8</button>
+                            <button class="calculator_key value_key" id="key_9">9</button>
+
+                            <button class="calculator_key value_key" id="key_0">0</button>
+                            <button class="calculator_key value_key" id="key_dot">.</button>
+                            <button class="calculator_key value_key" id="key_ten_power">E</button>
+                        </div>
+                        <div class="calculator_key_group" id="operation_key_group">
+                            <button class="calculator_key operation_key" id="key_all_clear">AC</button>
+                            <button class="calculator_key operation_key" id="key_clear">⌫</button>
+
+                            <button class="calculator_key operation_key yellow" id="key_times">×</button>
+                            <button class="calculator_key operation_key yellow" id="key_divide">÷</button>
+
+                            <button class="calculator_key operation_key yellow" id="key_plus">+</button>
+                            <button class="calculator_key operation_key yellow" id="key_minus">-</button>
+
+                            <button class="calculator_key operation_key yellow" id="key_equal">=</button>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+
+        <footer class="page_division">
+            <section class="section footer_section" id="footer_section">
+                <div class="section_container" id="footer_container">
+                    <div class="section_block content_block">
+                        Calculator.io
+                    </div>
+                    <div class="section_block content_block" id="copyright_block">
+                        Footer Copyright
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.4.4/math.min.js"></script>
+    <script src="resources/script/calculator.js"></script>
+</body>
+</html>

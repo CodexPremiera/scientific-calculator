@@ -1,0 +1,72 @@
+/* Box sizing rules */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove default margin and padding */
+* {
+    font: inherit;
+}
+
+html {
+    font-size: 16px;
+}
+
+/* Set default font and content size */
+body {
+    font-family: Helvetica, Calibri, sans-serif;
+}
+
+img, picture, svg, video {
+    display: inline-block;
+    max-width: 100%;
+}
+
+/* Remove hyperlinks underlines and change cursor style */
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+/* Reset form elements */
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%; /* Resets font size in all browsers */
+    font-family: inherit; /* Ensures that input elements inherit the font family from the parent */
+    vertical-align: baseline;
+    background: none;
+}
+
+/* Remove additional form styling for certain elements */
+button,
+input {
+    overflow: visible;
+}
+
+/* Corrects the font size not being inherited in all browsers */
+button,
+select {
+    text-transform: none;
+}
+
+/* Reset button styling */
+button {
+    padding: 0;
+    border: none;
+    background: transparent;
+}
+
+/* Reset table border spacing and border collapse */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
